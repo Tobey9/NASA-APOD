@@ -24,6 +24,11 @@ body {
   background: whitesmoke;
 }
 
+.rocket {
+  width: 300px;
+  height: auto;
+}
+
 .hidden {
   display: none;
 }
