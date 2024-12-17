@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NASA APOD</title>
+  </head>
+  <body>
+    <div class="loader hidden">
+      <img src="rocket.svg" alt="Rocket Loader" />
+    </div>
+    <div class="background-nav">
+      <div class="nav">
+        <h3 class="clickable" onclick="updateDOM('favorites')">Favorites</h3>
+        <h3 class="clickable" onclick="getNasaPictures()">Load More</h3>
+      </div>
+      <div class="favorite-nav hidden">
+        <h3 class="clickable" onclick="getNasaPictures()">
+          Load More Pictures
+        </h3>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Content -->
+      <!-- <div class="content">
+        <div class="img-container">
+          <a href="" title="View Full Picture" target="_blank"><img
+            src="
+        https://apod.nasa.gov/apod/image/1106/NGC5139_mandell900.jpg"
+            alt=""
+          /></a>
+          
+        </div>
+        <div class="text-container">
+          <h2 id="title">Millions of Stars</h2>
+          <p class="clickable" id="addFavorites">Add to Favorites</p>
+          <p class="text" id="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+            unde eos. Provident commodi alias dolore eius eaque pariatur,
+            laboriosam rem consequuntur, nihil quibusdam veniam facilis
+            corporis, tenetur omnis hic tempore. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Nam quae, suscipit quia,
+            necessitatibus animi beatae distinctio maiores reiciendis expedita
+            delectus dignissimos provident officia recusandae odit quibusdam
+            tenetur? Ipsum, molestiae maiores!
+          </p>
+        </div>
+        <div class="footer-container">
+          <small id="date">2024-05-11</small>
+          <small id="author">Gerald Rhemann</small>
+        </div>
+      </div> -->
+    </div>
+    <!-- Save Confirmation -->
+    <div class="save-confirmed" hidden>
+      <h1>ADDED!</h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
