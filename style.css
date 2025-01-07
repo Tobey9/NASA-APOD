@@ -123,6 +123,10 @@ img {
     flex-direction: column;
   }
   .content {
-    width : 90%;
-  }
+  width: 95%;
+}
+  .img-container {
+  width: 90%;
+ 
+}
 }
